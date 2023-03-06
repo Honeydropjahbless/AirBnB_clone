@@ -15,18 +15,19 @@ This command line interpreter serves as the frontend of the web app where users 
 
 Some of the commands available are:
 
-- show
-- create
-- update
-- destroy
-- count
+ - show
+ - create
+ - update
+ - destroy
+ - count
+
 And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the folowing actions can be performed:
 
-. Creating new objects (ex: a new User or a new Place)
-. Retrieving an object from a file, a database etc…
-. Doing operations on objects (count, compute stats, etc…)
-. Updating attributes of an object
-. Destroying an object
+ - Creating new objects (ex: a new User or a new Place)
+ - Retrieving an object from a file, a database etc…
+ - Doing operations on objects (count, compute stats, etc…)
+ - Updating attributes of an object
+ - Destroying an object
 
 ## How to start it
 These instructions will get you a copy of the project up and running on your local machine (Linux distro) for development and testing purposes.
@@ -61,9 +62,9 @@ After cloning the repository you will have a folder called AirBnB_clone. In here
 ## How to use it
 It can work in two different modes:
 
-*Interactive* and *Non-interactive.*
+**Interactive** and **Non-interactive.**
 
-In *Interactive mode*, the console will display a prompt (hbnb) indicating that the user can write and execute a command. After the command is run, the prompt will appear again a wait for a new command. This can go indefinitely as long as the user does not exit the program.
+In **Interactive mode**, the console will display a prompt (hbnb) indicating that the user can write and execute a command. After the command is run, the prompt will appear again a wait for a new command. This can go indefinitely as long as the user does not exit the program.
 
   $ ./console.py
   (hbnb) help
