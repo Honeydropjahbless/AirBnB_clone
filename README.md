@@ -148,7 +148,12 @@ The recognizable commands by the interpreter are the following:
 |count	|Retrieve the number of instances of a class.|
 |Usage	|<class name>.count()|
 
+## Technologies Used
+ - Language: Python3
+ - Operating System: Ubuntu 14.04 LTS (Trusty64)
+ - Style: PEP8 Ver. 1.7
+
 ## Authors
 
- - Godwin Usang
- - Onojo M. Ameh
+ - Godwin Usang  <honeydropjahbless@gmail.com>
+ - Onojo M. Ameh <amehonojo@gmail.com>
