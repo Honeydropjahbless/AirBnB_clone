@@ -1,5 +1,5 @@
 # The AirBnB Clone Project
-(https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreebiesupply.com%2Flogos%2Fairbnb-logo-2%2F&psig=AOvVaw2JajKsjrX8iDJDRa9GRE-Y&ust=1678222599367000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCzqMKYyP0CFQAAAAAdAAAAABAE)
+![This is an Image](https://cdn.freebiesupply.com/logos/large/2x/airbnb-2-logo-png-transparent.png)
 
 ## Project Description
 This is the first part of the AirBnB clone project where we worked on the backend of the project whiles interfacing it with a console application with the help of the cmd module in python.
@@ -150,7 +150,7 @@ The recognizable commands by the interpreter are the following:
 |Usage	|<class name>.count()|
 
 ## Technologies Used
- - Language: Python3
+ - Language: Python3.4
  - Operating System: Ubuntu 14.04 LTS (Trusty64)
  - Style: PEP8 Ver. 1.7
 
