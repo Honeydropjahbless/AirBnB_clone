@@ -1,7 +1,7 @@
 # The AirBnB Clone Project
 
 
-[This is an image]
+![This is an Image](https://cdn.freebiesupply.com/logos/large/2x/airbnb-2-logo-png-transparent.png)
 
 ## Project Description
 This is the first part of the AirBnB clone project where we worked on the backend of the project whiles interfacing it with a console application with the help of the cmd module in python.
@@ -153,4 +153,4 @@ or
 |Usage	|<class name>.count()|
 
 ## Authors
- - Honeydropjahbless
+ - Honeydropjahbless <https://www.linkedin.com/in/godwin-samuel-85618a17b>
