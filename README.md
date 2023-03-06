@@ -57,9 +57,9 @@ After cloning the repository you will have a folder called AirBnB_clone. In here
 ## How to use it
 It can work in two different modes:
 
-*Interactive* and *Non-interactive*.
+**Interactive** and **Non-interactive**.
 
-In *Interactive mode*, the console will display a prompt (hbnb) indicating that the user can write and execute a command. After the command is run, the prompt will appear again a wait for a new command. This can go indefinitely as long as the user does not exit the program.
+In **Interactive mode**, the console will display a prompt (hbnb) indicating that the user can write and execute a command. After the command is run, the prompt will appear again a wait for a new command. This can go indefinitely as long as the user does not exit the program.
 
   $ ./console.py
   (hbnb) help
@@ -73,7 +73,7 @@ In *Interactive mode*, the console will display a prompt (hbnb) indicating that 
   (hbnb) quit
   $
 
-In *Non-interactive mode*, the shell will need to be run with a command input piped into its execution so that the command is run as soon as the Shell starts. In this mode no prompt will appear, and no further input will be expected from the user.
+In **Non-interactive mode**, the shell will need to be run with a command input piped into its execution so that the command is run as soon as the Shell starts. In this mode no prompt will appear, and no further input will be expected from the user.
 
   $ echo "help" | ./console.py
   (hbnb)
@@ -122,4 +122,28 @@ or
 
 ## Available commands and what they do
 The recognizable commands by the interpreter are the following:
-
+| Command     | Description|
+| ---------   | -----------|
+| quit or EOF | Exits the program|
+|Usage	| By itself|
+|-----|	-----|
+|help |	Provides a text describing how to use a command.|
+|Usage|  By itself --or-- help <command>|
+|-----|	-----|
+|create| Creates a new instance of a valid Class, saves it (to the JSON file) and prints the id. Valid classes are: BaseModel, User, State, City, Amenity, Place, Review.|
+|Usage|	create <class name>|
+|-----|	-----|
+|show|	Prints the string representation of an instance based on the class name and id|
+|Usage|	show <class name> <id> --or-- <class name>.show(<id>)|
+|-----	|-----|
+|destroy|	Deletes an instance based on the class name and id (saves the change into a JSON file).|
+|Usage	|destroy <class name> <id> --or-- .destroy()|
+|-----	|-----|
+|all	|Prints all string representation of all instances based or not on the class name.|
+|Usage	|By itself or all <class name> --or-- <class name>.all()|
+|-----	|-----|
+|update	|Updates an instance based on the class name and id by adding or updating attribute (saves the changes into a JSON file).|
+|Usage	|update <class name> <id> <attribute name> "<attribute value>" ---or--- <class name>.update(<id>, <attribute name>, <attribute value>) --or-- <class name>.update(<id>, <dictionary representation>)|
+|-----	|-----|
+|count	|Retrieve the number of instances of a class.|
+|Usage	|<class name>.count()|
